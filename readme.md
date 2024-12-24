@@ -1,7 +1,5 @@
 # PosterCardX
 
-See Kotlin Doc:[posterCardX-1.0-javadoc](./docs/index.html)
-
 An extended view based
 on [androidx.cardview.widget.CardView](https://developer.android.com/reference/kotlin/androidx/cardview/widget/CardView.html),
 which generates a nice background based on a poster image.
@@ -15,9 +13,11 @@ which generates a nice background based on a poster image.
 
 ## Effect screenshots
 
-![PosterCard](../img.png)
+![PosterCard](img.png)
 
-## How to use
+## Implement by gradle
+
+`implementation("com.lunacattus.postercardx:postercardx:1.0.0")`
 
 ### Use in XML
 
@@ -27,13 +27,19 @@ which generates a nice background based on a poster image.
    image. PosterCard will use glide to load the image.
 
 ```xml
-
-<com.lunacattus.postercardx.PosterCard android:id="@+id/poster_card" android:layout_width="0dp"
-    android:layout_height="0dp" android:layout_marginStart="30dp" app:cardCornerRadius="20dp"
-    app:cardElevation="20dp" app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintHeight_percent="0.7" app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.3"
-    app:posterCardSrc="@drawable/jay2" />
+    <com.lunacattus.postercardx.PosterCard 
+        android:id="@+id/poster_card" 
+        android:layout_width="0dp"
+        android:layout_height="0dp" 
+        android:layout_marginStart="30dp" 
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp" 
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.7" 
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" 
+        app:layout_constraintWidth_percent="0.3"
+        app:posterCardSrc="@drawable/jay2" />
 ```
 
 - Note: If the URL is http:// instead of https://, you need to
@@ -83,9 +89,21 @@ posterCard.setPoster(R.drawable.jay4).setTopFraction(0.4f).build()
 posterCard.radius = 30f //This is from CardView
 binding.cardContainer.addView(posterCard)
 ```
+## 中文介绍
 
----
+这是一个基于AndroidX.CardView的扩展库, 通过传入的图片给cardview生成好看的背景, 灵感来源于车载开发中媒体播放卡片，
+不同歌曲播放的时候媒体卡片背景根据不同的专辑图片发生变化，当前库的作用就是裁剪专辑图片然后提取底部合适的颜色并给图片添加渐变
+模糊，最后给CardView绘制上好看的背景。
 
-## 中文使用方法
+### gradle 引入
 
+`implementation("com.lunacattus.postercardx:postercardx:1.0.0")`
+
+### 用法
+
+1. 直接在XML中使用，跟CardView一样，默认带有属性，只需要通过`posterCardSrc`或者`posterCardUrl`传入专辑图片即可, 
+不喜欢默认的样式，可以使用提供的属性进行自定义设置, 具体属性参考上面英文介绍里的。
+2. 在kotlin中动态添加，代码参考英文介绍，动态加载不同的图片时，可以直接传入图片url，库里使用了glide去加载图片，
+使用http协议的图片资源时，记得在app里添加networkSecurityConfig配置，否则glide解析图片会失败。
+3. 每次代码设置完新的属性或者图片时，最后调用`build()`触发重新绘制。
 

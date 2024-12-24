@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <com.lunacattus.postercardx.PosterCard
         android:id="@+id/poster_card"
@@ -18,8 +17,7 @@
         app:layout_constraintHeight_percent="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.3"
-        app:posterCardSrc="@drawable/jay2" />
+        app:layout_constraintWidth_percent="0.3" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/card_container"
