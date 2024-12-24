@@ -1,0 +1,1 @@
+sourceset_dependencies='{":posterCardX:dokkaHtml/debug":[],":posterCardX:dokkaHtml/main":[],":posterCardX:dokkaHtml/release":[]}'

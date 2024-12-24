@@ -1,0 +1,26 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.lunacattus.postercardx////PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/index.html
+$dokka.location:com.lunacattus.postercardx/PosterCard.Companion///PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/-companion/index.html
+$dokka.location:com.lunacattus.postercardx/PosterCard///PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/index.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/PosterCard/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/-poster-card.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/build/#/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/build.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/getCroppedPoster/#/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/get-cropped-poster.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/getExtractColor/#/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/get-extract-color.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setBlurFraction/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-blur-fraction.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setBlurRadius/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-blur-radius.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setBlurTransportAlpha/#kotlin.Int/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-blur-transport-alpha.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setColorExtractFraction/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-color-extract-fraction.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setColorMaxLuminance/#kotlin.Int/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-color-max-luminance.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setColorMinLuminance/#kotlin.Int/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-color-min-luminance.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setColorSaturation/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-color-saturation.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setGradientFraction/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-gradient-fraction.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setGradientPositionArray/#kotlin.FloatArray/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-gradient-position-array.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setGradientTransportAlphaArray/#kotlin.IntArray/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-gradient-transport-alpha-array.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setPositionBias/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-position-bias.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setPoster/#android.content.Context#kotlin.String/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-poster.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setPoster/#android.graphics.Bitmap/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-poster.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setPoster/#android.graphics.drawable.Drawable/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-poster.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setTopFraction/#kotlin.Float/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-top-fraction.html
+$dokka.location:com.lunacattus.postercardx/PosterCard/setUseLinearGradient/#kotlin.Boolean/PointingToDeclaration/poster-card-x/com.lunacattus.postercardx/-poster-card/set-use-linear-gradient.html
+com.lunacattus.postercardx

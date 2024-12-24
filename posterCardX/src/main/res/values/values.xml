@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="posterCardDefaultStyle" format="reference" />
+    <declare-styleable name="PosterCard">
+        <!-- Local image resource path -->
+        <attr name="posterCardSrc" format="reference" />
+        <!-- Internet image resource path -->
+        <attr name="posterCardUrl" format="string" />
+        <!-- Set the scale of the poster to cover the top of the card. -->
+        <attr name="posterCardTopFraction" format="float" />
+        <!-- Set the position of the cropped poster when it covers the top of the card. -->
+        <attr name="posterCardPositionBias" format="float" />
+        <!-- Sets the bottom area ratio to extract colors from the poster -->
+        <attr name="posterCardColorExtractAreaFraction" format="float" />
+        <!-- Set the minimum luminance of the filtered color when extracting color. -->
+        <attr name="posterCardColorMinLuminance" format="integer" />
+        <!-- Set the maximum luminance of the filtered color when extracting color. -->
+        <attr name="posterCardColorMaxLuminance" format="integer" />
+        <!-- Set the saturation of the extracted color. -->
+        <attr name="posterCardColorSaturation" format="float" />
+        <!-- Set the percentage of the gradient color that is overlaid on the cropped poster,
+        from bottom to top. -->
+        <attr name="posterCardGradientFraction" format="float" />
+        <!-- Set the percentage of the blur color that is overlaid on the cropped poster, from
+        bottom to top. -->
+        <attr name="posterCardBlurFraction" format="float" />
+        <!-- Set the transparency alpha value of the cropped poster overlay blur color. -->
+        <attr name="posterCardBlurTransportAlpha" format="integer" />
+        <!-- Set the blur level of the poster overlay blur color. -->
+        <attr name="posterCardBlurRadius" format="float" />
+        <!-- Set whether to use linear gradient. -->
+        <attr name="posterCardUseLinearGradient" format="boolean" />
+        <!-- Sets the transparency alpha value array in the custom gradient ladder. -->
+        <attr name="posterCardGradientTransportAlphaIntArray" format="reference" />
+        <!-- Sets the transparency position value array in the custom gradient ladder. -->
+        <attr name="posterCardGradientPositionFloatArray" format="reference" />
+    </declare-styleable>
+    <style name="DefaultPosterCardStyle">
+        <item name="posterCardTopFraction">0.5</item>
+        <item name="posterCardPositionBias">0.5</item>
+        <item name="posterCardColorExtractAreaFraction">0.25</item>
+        <item name="posterCardColorMinLuminance">50</item>
+        <item name="posterCardColorMaxLuminance">190</item>
+        <item name="posterCardColorSaturation">0.3</item>
+        <item name="posterCardGradientFraction">0.5</item>
+        <item name="posterCardBlurFraction">0.3</item>
+        <item name="posterCardBlurTransportAlpha">255</item>
+        <item name="posterCardBlurRadius">100.0</item>
+        <item name="posterCardUseLinearGradient">true</item>
+    </style>
+</resources>
